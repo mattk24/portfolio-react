@@ -1,0 +1,67 @@
+.about {
+  margin-top: 3rem;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  color: yellow;
+}
+
+.card-subtitle {
+  margin-top: -.375rem;
+  margin-bottom: 0;
+  color: yellow;
+}
+
+.card-portfolio {
+  background-image: linear-gradient(78deg, #323eed, #4d089a, #4d084a);
+}
+
+.card-img {
+  position: relative;
+  left: 305px;
+}
+
+a {
+  font-family: 'Fondamento', cursive;
+}
+
+.card {
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-top: 2rem;
+}
+
+th {
+  color: gold;
+  font-size: 1.3rem;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Fondamento', cursive;
+  color: yellow;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: 'Roboto Mono', monospace;
+  color: yellow;
+}
+
+.jumbotron {
+  background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);
+}
+
+.profile-img {
+position: relative;
+margin-top: 1.5rem;
+margin-bottom: -1.5rem;
+}
+
+body {
+  background-image: linear-gradient(78deg, #323eed, #4d089a, #4d084a);
+  text-align: center;
+}
+

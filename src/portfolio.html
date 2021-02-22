@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,362;1,362&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap" rel="stylesheet">
+
+
+  <title>Portfolio</title>
+
+</head>
+
+<body>
+
+  <header class="jumbotron jumbotron-fluid">
+    <h1 class="text-center mt-4" style="color: gold;">Matthew Koukios</h1>
+    <div class="mx-auto" style="width: 250px;">
+      <img src="img/Mms_2020-07-11_13-20-22.jpg" class="profile-img img-thumbnail" alt="profile-pic">
+    </div>
+  </header>
+
+
+  <!-- Nav Bar -->
+
+  <section id="bio">  <!-- Section Bio -->
+
+    <nav class="navbar navbar-expand-sm" style="background-image: linear-gradient(20deg, #323edd, #4d089a, #4d084a);">  <!-- Navigation -->
+      <div class="container" style="margin-left: -2rem;">  <!-- Container -->
+        <a class="navbar-brand col-auto col-sm-auto" style="color: gold;" href="index.html">Matthew's Web Acropolis LLC</a>  <!-- Anchor Tag -->
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation"> <!-- Nav Bar Toggler-->
+          <span class="navbar-toggler-icon"></span>  <!-- Nav Bar Toggler Icon-->
+        </button>
+
+        <div class="collapse navbar-collapse col-xs-auto col-sm-auto col-md-5" id="navigation">  <!-- Nav Bar Collapse-->
+          <ul class="navbar-nav col-xs-auto col-sm-auto col-md-auto col-lg-auto" style="margin-left: 20rem;">  <!-- Unordered List Nav Items -->
+            <li class="nav-item">  <!-- Nav Item -->
+              <a class="nav-link ml-5 btn-lg" style="color: gold;" href="#">Portfolio</a>  <!-- Nav link-->
+            </li>
+            <li class="nav-item">  <!-- Nav Item -->
+              <a class="nav-link ml-5 btn-lg" style="color: gold;" href="" data-toggle="modal"
+                data-target="#contactModal">Contact me</a>  <!-- Nav Link -->
+            </li>
+          </ul>  <!-- Unordered List Nav Items --> 
+
+        </div>  <!-- Nav Bar Collapse -->
+      </div>  <!-- Container -->
+    </nav>  <!-- Navigation -->
+
+    <div id="contactModal" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="color: gold; background-color: #323eed;">
+            <h5 class="modal-title">Contact Me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="background-image: linear-gradient(45deg, #323eed, #4d089a, #4d084a);">
+            <div class="container-fluid">
+              <form action="mailto:lightning4@yahoo.com" method="post" enctype="text/plain" class="" id="contactForm">
+                <div class="form-row col col-12" style="text-align: center; color: gold;">
+                  <div class="form-group col-xs col-sm-4 mx-auto mt-2 mb-4"
+                    style="padding-left: 1.5rem; padding-right: 1.5rem;">
+                    <label>Your Name:</label>
+                    <input type="text" class="form-control" name="yourName" value="">
+
+                  </div>
+                  <div class="form-group col-xs col-sm-4 col-md-9 mx-auto"
+                    style="padding-left: 10.5rem; padding-right: 10.5rem;">
+                    <label>Your Email:</label>
+                    <input type="email" class="form-control" name="yourEmail" value="">
+                  </div>
+                  <div class="form-group col-xs col-sm col-md-5 mx-auto"
+                    style="padding-left: 5rem; padding-right: 5rem;">
+                    <label> (optional) Your Phone Number: </label>
+                    <input type="tel" class="form-control" name="yourPhoneNumber" value="">
+                  </div>
+                  <div class="form-group col-xs col-sm col-md-12 mx-auto">
+                    <label>Your Message:</label><br>
+                    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+                  </div>
+                  <div class="form-group col-xs col-sm col-md-4 mx-auto">
+                    <div class="footer">
+
+                      <button type="reset" class="btn btn-secondary">Reset</button>  <!-- Reset button -->
+
+                      <button type="submit" class="btn btn-primary ml-3">Submit</button>  <!-- Submit button -->
+
+                    </div>  <!-- Footer -->
+                  </div>  <!-- Form Group -->
+                </div>  <!-- Form Row -->
+              </form>  <!-- Form -->
+            </div>  <!-- Container Fluid -->
+          </div>  <!-- Modal Body -->
+
+        </div>  <!-- Modal Content -->
+      </div>  <!-- Modal Dialog -->
+    </div>  <!-- Container -->
+
+    <div class="container"> <!-- Container -->
+        <h2 class="hobby-title mt-5" style="color: gold;">Portfolio</h2> <!-- Hobby Title -->
+        <div class="card-group mt-5" style="color: gold;"> <!-- Card Group -->
+          <div class="card mr-5 mb-5" 
+          style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);"> <!-- Card -->
+            <img class="card-img-top" src="img/Main Site.jpg" alt="Card image cap">  <!-- Image -->
+            <div class="card-body">  <!-- Card Body -->
+              <h5 class="card-title">Main Site</h5>  <!-- Card Title -->
+              <p class="card-text">This website was made by me with just HTML and CSS I use this as my main site although that may change.</p>  <!-- Card Text --></p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Main-Site/">Main Site</a>
+            </div>
+          </div>
+          <div class="card mr-5 mb-5"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Basic website.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Basic Website</h5>
+              <p class="card-text"> This one is also HTML and CSS which is not that all impressive but still worth a look.</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/lightning-4/">Basic Site</a>
+            </div>
+          </div>
+          <div class="card mb-5"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Google Template.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Google Template</h5>
+              <p class="card-text">This was a search template that I made that is a Google look alike lol! (Don't worry it's not functional it's just a practice template)</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Search-template/">Google Template</a>
+            </div>  <!-- Card Body -->
+          </div>  <!-- Card -->
+        </div>  <!-- Card Group -->
+      </div>  <!-- Container -->
+
+      <div class="container"> <!-- Container -->
+        <div class="card-group mt-5" style="color: gold;"> <!-- Card Group -->
+          <div class="card mr-5 mb-5" 
+          style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);"> <!-- Card -->
+            <img class="card-img-top" src="img/Drum Kit Template.jpg" alt="Card image cap">  <!-- Image -->
+            <div class="card-body">  <!-- Card Body -->
+              <h5 class="card-title">Drum Kit</h5>  <!-- Card Title -->
+              <p class="card-text">I made an audio Drum kit that plays audio drums with Javascript along with some HTML and CSS.</p>  <!-- Card Text -->
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Drum-kit/">Drum Kit</a>
+            </div>
+          </div>
+          <div class="card mr-5 mb-5"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Login Template.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Login Template</h5>
+              <p class="card-text">I made this login template with HTML CSS and Javascript it just has you put an email and password with a sign-in button.</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Login-template/">Login Template</a>
+            </div>
+          </div>
+          <div class="card mb-5"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Registration Template.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Registration Template</h5>
+              <p class="card-text">This Registration Template is HTML, CSS and Javascript it has you put your name, username, email, and password.</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Registration-template/">Registration Template</a>
+              </p>
+            </div>  <!-- Card Body -->
+          </div>  <!-- Card -->
+        </div>  <!-- Card Group -->
+      </div>  <!-- Container -->
+
+      <div class="container"> <!-- Container -->
+        <div class="card-group mt-5" style="color: gold;"> <!-- Card Group -->
+          <div class="card mr-5" 
+          style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);"> <!-- Card -->
+            <img class="card-img-top" src="img/To do List.jpg" alt="Card image cap">  <!-- Image -->
+            <div class="card-body">  <!-- Card Body -->
+              <h5 class="card-title">To Do list</h5>  <!-- Card Title -->
+              <p class="card-text">I made this To Do list with HTML, CSS and Javascript and it creates a list of things to do. 
+                  So you can put in what you want and when you have it you check mark it off the list.</p>  <!-- Card Text -->
+                <p>I don't have a link for this one because it has Node.js and I can't put it into Github!</p>
+            </div>
+          </div>
+          <div class="card mr-5"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Business Website.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Business Website</h5>
+              <p class="card-text">I made this business website to use to run my business with when I had one lol I used HTML, CSS, and Jquery.</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Business/">Business Website</a>
+              </p>
+            </div>
+          </div>
+          <div class="card"
+            style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);">
+            <img class="card-img-top" src="img/Bootstrap Template.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap Template</h5>
+              <p class="card-text">This Template has Bootstrap in as well as HTML and CSS.</p>
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Bootstrap-template/">Bootstrap Template</a>
+            </div>  <!-- Card Body -->
+          </div>  <!-- Card -->
+        </div>  <!-- Card Group -->
+      </div>  <!-- Container -->
+
+      <div class="container"> <!-- Container -->
+        <div class="card-group mt-5" style="color: gold;"> <!-- Card Group -->
+          <div class="card mr-5" 
+          style="background-image: linear-gradient(45deg, gold, #323edd, #4d089a, purple);"> <!-- Card -->
+            <img class="card-img-top" src="img/Natours.jpg" alt="Card image cap">  <!-- Image -->
+            <div class="card-body">  <!-- Card Body -->
+              <h5 class="card-title">Natours</h5>  <!-- Card Title -->
+              <p class="card-text">This project is called Natours and it is a practice website that I created however I am not claiming ownership that belongs to a developer named Jonas Schmedtmann it is a website that has HTML, CSS and Sass.</p>  <!-- Card Text -->
+              <a class=" btn-link btn-lg" style="color: gold; background-image: linear-gradient(45deg, #323edd, #4d089a, purple)" href="https://mattk24.github.io/Natours/">Natours Project</a>
+
+            </div>
+          </div>
+        </div>
+    </div>  <!-- Container -->
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
