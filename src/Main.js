@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route, Link, useRouteMatch} from "react-router-dom";
 import Rating from './components/RatingComponent';
-import Muffin from './components/MuffinComponent';
 import Hobbies from './components/HobbiesComponent';
 import About from './components/AboutComponent';
 import {
