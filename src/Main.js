@@ -84,7 +84,6 @@ function Home() {
             <About/>
             <Rating/>
             <Hobbies/>
-            <Muffin/>
         </div>
     );
 }
